@@ -1,4 +1,4 @@
-@contract
+@smoke_test
 Feature: As a user I should be able to work on vehicle contract
 
     Scenario Outline: User should be able to creat a vehicle contract
