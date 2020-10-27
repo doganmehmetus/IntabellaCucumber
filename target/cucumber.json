@@ -1,0 +1,573 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-27T17:18:07.808Z",
+        "line": 16,
+        "name": "User should be able to creat a vehicle contract",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-work-on-vehicle-contract;user-should-be-able-to-creat-a-vehicle-contract;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12818000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"storemanager79\" and \"UserUser123\" and clicks on the login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager79\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.stepDefinitions.ContractStepDef.userEntersAndAndClicksOnTheLoginButton(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 589000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the fleet module",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnTheFleetModule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2102000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the contract page",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnTheContractPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1772000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on create vehicle contract page",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnCreateVehicleContractPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5548000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters info for contract and verifies",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userEntersInfoForContractAndVerifies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 639000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User cancels the contract",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userCancelsTheContract()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2945000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User logs out",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userLogsOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contract"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-27T17:18:34.363Z",
+        "line": 17,
+        "name": "User should be able to creat a vehicle contract",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-work-on-vehicle-contract;user-should-be-able-to-creat-a-vehicle-contract;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10886000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"storemanager80\" and \"UserUser123\" and clicks on the login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager80\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.stepDefinitions.ContractStepDef.userEntersAndAndClicksOnTheLoginButton(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 376000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the fleet module",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnTheFleetModule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1628000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the contract page",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnTheContractPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1670000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on create vehicle contract page",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnCreateVehicleContractPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4439000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters info for contract and verifies",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userEntersInfoForContractAndVerifies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User cancels the contract",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userCancelsTheContract()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2813000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User logs out",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userLogsOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contract"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-27T17:18:56.794Z",
+        "line": 18,
+        "name": "User should be able to creat a vehicle contract",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-work-on-vehicle-contract;user-should-be-able-to-creat-a-vehicle-contract;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10308000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"salesmanager143\" and \"UserUser123\" and clicks on the login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salesmanager143\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.stepDefinitions.ContractStepDef.userEntersAndAndClicksOnTheLoginButton(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 538000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the fleet module",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnTheFleetModule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1579000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the contract page",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnTheContractPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1684000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on create vehicle contract page",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnCreateVehicleContractPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5154000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters info for contract and verifies",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userEntersInfoForContractAndVerifies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 908000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User cancels the contract",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userCancelsTheContract()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2943000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User logs out",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userLogsOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contract"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-27T17:19:19.937Z",
+        "line": 19,
+        "name": "User should be able to creat a vehicle contract",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-work-on-vehicle-contract;user-should-be-able-to-creat-a-vehicle-contract;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10062000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"salesmanager144\" and \"UserUser123\" and clicks on the login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salesmanager144\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.stepDefinitions.ContractStepDef.userEntersAndAndClicksOnTheLoginButton(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 638000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the fleet module",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnTheFleetModule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1610000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the contract page",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnTheContractPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1682000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on create vehicle contract page",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnCreateVehicleContractPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5391000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters info for contract and verifies",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userEntersInfoForContractAndVerifies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 653000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User cancels the contract",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userCancelsTheContract()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2830000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User logs out",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userLogsOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contract"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-27T17:19:42.818Z",
+        "line": 20,
+        "name": "User should be able to creat a vehicle contract",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-work-on-vehicle-contract;user-should-be-able-to-creat-a-vehicle-contract;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10528000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"salesmanager145\" and \"UserUser123\" and clicks on the login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salesmanager145\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.stepDefinitions.ContractStepDef.userEntersAndAndClicksOnTheLoginButton(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 349000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the fleet module",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnTheFleetModule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1929000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the contract page",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnTheContractPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1963000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on create vehicle contract page",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userClicksOnCreateVehicleContractPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5235000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters info for contract and verifies",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userEntersInfoForContractAndVerifies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 718000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User cancels the contract",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userCancelsTheContract()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (b167f52e36466385205bd9ab5a64cb20)] -\u003e xpath: //a[@href\u003d\u0027/user/logout\u0027]] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UIS4S5N\u0027, ip: \u0027192.168.0.161\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\sema\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54225}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b167f52e36466385205bd9ab5a64cb20\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat com.pages.LoginPage.logOut(LoginPage.java:59)\r\n\tat com.stepDefinitions.ContractStepDef.userLogsOut(ContractStepDef.java:60)\r\n\tat ✽.User logs out(file:///C:/Users/sema/IdeaProjects/IntabellaCucumber/src/test/resources/features/Contract.feature:12)\r\n",
+              "duration": 10756000000,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "User logs out",
+            "match": {
+              "location": "com.stepDefinitions.ContractStepDef.userLogsOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contract"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I should be able to work on vehicle contract",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-work-on-vehicle-contract",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Contract.feature",
+    "tags": [
+      {
+        "name": "@contract",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
