@@ -31,7 +31,7 @@ public class LoginPage {
     @FindBy(linkText = "Forgot your password?")
     public WebElement forgotPassword;
 
-    @FindBy(xpath = "(//a[@class='dropdown-toggle'])[1]")
+    @FindBy(xpath = "//i[@class='fa-caret-down']")
     public WebElement userDropdownbutton;
 
     @FindBy(xpath = "//a[@href='/user/logout']")

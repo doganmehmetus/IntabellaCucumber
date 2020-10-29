@@ -61,9 +61,9 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <includes>
-                        <include>**/*Runner*.java</include>
+                        <include>**/*CukeRunner*.java</include>
                     </includes>
-                    <testFailureIgnore>false</testFailureIgnore>
+                    <testFailureIgnore>true</testFailureIgnore>
                     <runOrder>alphabetical</runOrder>
                     <parallel>methods</parallel>
                     <threadCount>3</threadCount>
