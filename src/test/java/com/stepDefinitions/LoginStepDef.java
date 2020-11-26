@@ -26,6 +26,7 @@ public class LoginStepDef {
     @Then("User should logout")
     public void userShouldLogout() throws InterruptedException{
         loginPage.logOut();
+        System.out.println("Logged out!");
     }
 
 
